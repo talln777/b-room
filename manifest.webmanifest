@@ -1,0 +1,15 @@
+{
+  "name": "b-room",
+  "short_name": "b-room",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#58a82f",
+  "icons": [
+    {
+      "src": "images/apple-touch-icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

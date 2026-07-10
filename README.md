@@ -1,17 +1,13 @@
-# b-room.app トップページ
+# b-room.app
 
-## 使い方
+GitHub Pages向けの静的サイトです。ビルド不要です。
 
-1. `index.html` をGitHub Pagesの公開対象フォルダに配置
-2. SourceTreeでコミット＆Push
-3. GitHub Pagesの反映を待つ
+## アプリアイコンの差し替え
+同じファイル名で画像を置き換えてください。
+- images/monoqlist-icon.jpg
+- images/max-icon.jpg
 
-## 変更が必要な箇所
+正方形画像（1024×1024推奨）です。
 
-`index.html` 内の `TODO:` を検索して、以下を実際のURLへ変更してください。
-
-- monoQlistの紹介ページ / App Store URL
-- mAxの紹介ページ / App Store URL
-- お問い合わせURL
-- プライバシーポリシーURL
-- FAQ URL
+## 公開前
+index.html 内の href="#" を実際のURLへ変更してください。
