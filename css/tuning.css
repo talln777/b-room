@@ -1,0 +1,111 @@
+/* Reference-based typography and spacing adjustments. */
+.hero h1 {
+  font-size: clamp(34px, 3.2vw, 44px);
+  line-height: 1.42;
+  letter-spacing: .015em;
+}
+
+.hero-copy p {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2;
+}
+
+.outline-button {
+  margin-top: 28px;
+  padding: 11px 24px;
+}
+
+.section-title h2 {
+  font-size: 30px;
+  line-height: 1.4;
+}
+
+.section-title {
+  margin-bottom: 34px;
+}
+
+.app-card {
+  min-height: 458px;
+  padding: 32px 32px 22px;
+}
+
+.app-header {
+  gap: 24px;
+}
+
+.app-header h3 {
+  font-size: 32px;
+  line-height: 1.2;
+}
+
+.reading {
+  margin-top: 3px;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.app-tagline {
+  margin-top: 20px;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.app-description {
+  margin-top: 13px;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.95;
+}
+
+.tag-list {
+  padding-top: 20px;
+}
+
+.value-item h3 {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.value-item p {
+  font-weight: 500;
+  line-height: 1.7;
+}
+
+.value-icon svg {
+  width: 46px;
+  height: 46px;
+  stroke: currentColor;
+  stroke-width: 3;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.value-item:first-child .value-icon svg,
+.value-item:last-child .value-icon svg {
+  stroke-width: 2;
+}
+
+.value-item:last-child .value-icon svg {
+  stroke-width: 1.75;
+}
+
+@media (max-width: 600px) {
+  .hero h1 {
+    font-size: 34px;
+  }
+
+  .hero-copy p {
+    font-size: 15px;
+  }
+
+  .app-card {
+    min-height: 0;
+    padding: 24px 20px 20px;
+  }
+
+  .app-header h3 {
+    font-size: 29px;
+  }
+}
