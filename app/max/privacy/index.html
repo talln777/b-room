@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="color-scheme" content="light" />
+  <title>mAx プライバシーポリシー</title>
+  <style>
+    :root {
+      --bg: #f7f8f5;
+      --card: #ffffff;
+      --text: #1b1f1c;
+      --muted: #626b64;
+      --green: #0b5d1e;
+      --green-dark: #063d14;
+      --green-soft: #eaf5ec;
+      --orange: #f25b16;
+      --border: #dfe6df;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      background:
+        radial-gradient(circle at top right, rgba(11, 93, 30, 0.08), transparent 32%),
+        var(--bg);
+      color: var(--text);
+      font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Hiragino Sans",
+        "Yu Gothic",
+        "YuGothic",
+        "Noto Sans JP",
+        sans-serif;
+      line-height: 1.8;
+    }
+
+    .container {
+      width: min(920px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 48px 0 72px;
+    }
+
+    .hero {
+      margin-bottom: 24px;
+      padding: 40px;
+      border-radius: 28px;
+      color: #fff;
+      background:
+        linear-gradient(135deg, rgba(11, 93, 30, 0.98), rgba(6, 61, 20, 0.98));
+      box-shadow: 0 18px 45px rgba(6, 61, 20, 0.18);
+    }
+
+    .app-name {
+      margin: 0 0 8px;
+      font-size: clamp(40px, 8vw, 72px);
+      font-weight: 800;
+      letter-spacing: 0.04em;
+    }
+
+    .hero h1 {
+      margin: 0;
+      font-size: clamp(24px, 4vw, 36px);
+      line-height: 1.4;
+    }
+
+    .updated {
+      margin: 16px 0 0;
+      color: rgba(255, 255, 255, 0.8);
+      font-size: 14px;
+    }
+
+    .card {
+      padding: 36px 40px;
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      background: var(--card);
+      box-shadow: 0 10px 30px rgba(27, 31, 28, 0.05);
+    }
+
+    .lead {
+      margin-top: 0;
+      font-size: 16px;
+    }
+
+    section + section {
+      margin-top: 36px;
+      padding-top: 36px;
+      border-top: 1px solid var(--border);
+    }
+
+    h2 {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin: 0 0 14px;
+      color: var(--green-dark);
+      font-size: 22px;
+      line-height: 1.5;
+    }
+
+    h2::before {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--orange);
+      content: "";
+      flex: 0 0 auto;
+    }
+
+    p {
+      margin: 0 0 14px;
+    }
+
+    ul {
+      margin: 12px 0 0;
+      padding-left: 1.4em;
+    }
+
+    li + li {
+      margin-top: 6px;
+    }
+
+    .note {
+      margin-top: 18px;
+      padding: 18px 20px;
+      border-left: 4px solid var(--orange);
+      border-radius: 12px;
+      background: #fff5ef;
+    }
+
+    .service-list {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+      margin-top: 14px;
+    }
+
+    .service-item {
+      padding: 14px 16px;
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      background: var(--green-soft);
+      font-weight: 700;
+      color: var(--green-dark);
+    }
+
+    .contact {
+      display: inline-block;
+      margin-top: 8px;
+      color: var(--green);
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .footer {
+      margin-top: 22px;
+      text-align: center;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .brand {
+      font-weight: 700;
+      color: var(--green-dark);
+    }
+
+    @media (max-width: 640px) {
+      .container {
+        width: min(100% - 20px, 920px);
+        padding: 18px 0 40px;
+      }
+
+      .hero {
+        padding: 28px 24px;
+        border-radius: 22px;
+      }
+
+      .card {
+        padding: 28px 22px;
+        border-radius: 20px;
+      }
+
+      section + section {
+        margin-top: 28px;
+        padding-top: 28px;
+      }
+
+      .service-list {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <header class="hero">
+      <p class="app-name">mAx</p>
+      <h1>プライバシーポリシー</h1>
+      <p class="updated">最終更新日：2026年7月11日</p>
+    </header>
+
+    <article class="card">
+      <p class="lead">
+        mAx（以下「本アプリ」）をご利用いただきありがとうございます。
+        本アプリでは、ユーザーのプライバシーを尊重し、個人情報の保護に努めます。
+      </p>
+
+      <section>
+        <h2>1. 取得する情報</h2>
+        <p>本アプリは、以下の情報をユーザーの端末内に保存します。</p>
+        <ul>
+          <li>球速の測定履歴</li>
+          <li>投球距離や表示単位などの設定情報</li>
+        </ul>
+        <p class="note">
+          これらの情報は端末内でのみ利用され、開発者のサーバーへ送信されません。
+        </p>
+      </section>
+
+      <section>
+        <h2>2. 外部への送信について</h2>
+        <p>
+          本アプリは、測定履歴や設定情報を開発者のサーバーへ送信しません。
+          また、ユーザーを識別するためのアカウント登録も必要ありません。
+        </p>
+      </section>
+
+      <section>
+        <h2>3. お問い合わせについて</h2>
+        <p>
+          お問い合わせフォームをご利用いただいた場合、フォームに入力された内容や、
+          任意で入力されたメールアドレスを、お問い合わせへの対応およびサービス改善のために利用します。
+        </p>
+        <p>
+          お問い合わせ内容を、法令に基づく場合を除き、本人の同意なく第三者へ提供することはありません。
+        </p>
+      </section>
+
+      <section>
+        <h2>4. 第三者サービス</h2>
+        <p>本アプリおよび関連サービスでは、以下の第三者サービスを利用する場合があります。</p>
+        <div class="service-list">
+          <div class="service-item">Apple App Store</div>
+          <div class="service-item">Google Forms</div>
+        </div>
+        <p style="margin-top: 14px;">
+          各サービスが取り扱う情報については、それぞれのサービスが定めるプライバシーポリシーをご確認ください。
+        </p>
+      </section>
+
+      <section>
+        <h2>5. お子様の利用について</h2>
+        <p>
+          本アプリは、野球やソフトボールを楽しむ幅広いユーザーを対象としています。
+          お子様が利用する場合は、必要に応じて保護者の方の管理のもとでご利用ください。
+        </p>
+      </section>
+
+      <section>
+        <h2>6. 免責事項</h2>
+        <p>
+          本アプリは、投球時間と設定された投球距離から球速を算出する簡易球速計です。
+          レーダー式スピードガンのような測定精度を保証するものではありません。
+          測定結果は参考値としてご利用ください。
+        </p>
+        <p>
+          本アプリの利用によって生じた損害について、開発者は法令上認められる範囲で責任を負わないものとします。
+        </p>
+      </section>
+
+      <section>
+        <h2>7. プライバシーポリシーの変更</h2>
+        <p>
+          本ポリシーは、法令の改正や本アプリの機能変更などに応じて、必要に応じて改定されることがあります。
+          変更後の内容は、本ページへ掲載した時点から効力を生じます。
+        </p>
+      </section>
+
+      <section>
+        <h2>8. お問い合わせ</h2>
+        <p>
+          本ポリシーに関するお問い合わせは、本アプリ内の「SUPPORT」またはお問い合わせフォームよりお願いいたします。
+        </p>
+      </section>
+    </article>
+
+    <footer class="footer">
+      <span class="brand">b-room</span> / mAx
+    </footer>
+  </main>
+</body>
+</html>
