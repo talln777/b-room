@@ -63,6 +63,11 @@
   padding-top: 20px;
 }
 
+.app-link span {
+  line-height: 1;
+  transform: translateY(-1px);
+}
+
 .value-item h3 {
   font-size: 14px;
   line-height: 1.5;
@@ -89,6 +94,10 @@
 
 .value-item:last-child .value-icon svg {
   stroke-width: 1.75;
+}
+
+.value-item:nth-child(3) .value-icon svg {
+  stroke-width: 3.5;
 }
 
 @media (max-width: 600px) {
