@@ -1,0 +1,6 @@
+@media (prefers-reduced-motion:no-preference){
+  .site{animation:site-enter .45s ease-out both}
+  .mockup-section:not(.mockup-section--hero){opacity:0;transform:translateY(6px);transition:opacity .45s ease-out,transform .45s ease-out}
+  .mockup-section.is-visible{opacity:1;transform:none}
+  @keyframes site-enter{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+}

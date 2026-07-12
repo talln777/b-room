@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 870 482" role="img" aria-label="気になる！">
+  <!-- The matte hides every pixel of the old raster speech bubble. -->
+  <g fill="#fff">
+    <ellipse cx="371" cy="356" rx="52" ry="32"/>
+    <path d="M348 371 334 400 369 382Z"/>
+    <circle cx="319" cy="357" r="4"/>
+  </g>
+
+  <!-- One closed Bézier path keeps the outline and tail continuous. -->
+  <path
+    d="M371 327
+       C399 327 419 339 419 356
+       C419 372 400 384 374 386
+       C369 386 365 385 361 384
+       L340 397
+       L346 381
+       C332 376 323 367 323 356
+       C323 339 344 327 371 327Z"
+    fill="#fff"
+    stroke="#6f956f"
+    stroke-width="1.5"
+    stroke-linecap="round"
+    stroke-linejoin="round"/>
+
+  <text
+    x="371"
+    y="361"
+    fill="#111"
+    font-family="-apple-system, BlinkMacSystemFont, 'Hiragino Kaku Gothic ProN', 'Yu Gothic', Meiryo, sans-serif"
+    font-size="13"
+    font-weight="700"
+    text-anchor="middle">気になる！</text>
+</svg>

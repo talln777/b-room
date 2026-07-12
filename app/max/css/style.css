@@ -1,0 +1,24 @@
+:root{
+  --page-bg:#f8f7f1;
+  --site-width:870px;
+  --shadow:0 24px 80px rgba(29,63,31,.14);
+  --brand-green:#006600;
+  --focus:#ff6a00;
+}
+html{background:#e8ebe5}
+body{min-width:320px;background:radial-gradient(circle at 50% 0,#fff 0,#eef1ec 70%);color:#111;font-family:-apple-system,BlinkMacSystemFont,"Hiragino Kaku Gothic ProN","Yu Gothic",Meiryo,sans-serif}
+.skip-link{position:fixed;left:12px;top:12px;z-index:99;padding:10px 14px;border-radius:8px;background:#fff;color:#064f20;transform:translateY(-160%)}
+.skip-link:focus{transform:none}
+.site{width:min(100%,var(--site-width));margin-inline:auto;background:var(--page-bg);box-shadow:var(--shadow);overflow:hidden}
+.mockup-section{position:relative;width:100%;line-height:0}
+.mockup-section img{width:100%;height:auto;object-fit:contain}
+.mockup-section .hero-bubble-overlay{position:absolute;inset:0;z-index:1;width:100%;height:100%;pointer-events:none}
+.image-map{position:absolute;inset-inline:0;z-index:2;pointer-events:none}
+.image-map a{position:absolute;left:var(--x);width:var(--w);height:100%;overflow:hidden;color:transparent;white-space:nowrap;pointer-events:auto}
+.image-map a:focus-visible{border-radius:4px;outline:3px solid var(--focus);outline-offset:2px;background:rgba(255,255,255,.18)}
+.image-map--global{top:2.4%;height:8.2%}
+.image-map--footer{bottom:0;height:13.4%}
+.visually-hidden{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
+@media (min-width:900px){body{padding-block:28px}.site{border-radius:18px}}
+@media (max-width:480px){.site{width:100%;box-shadow:none}.mockup-section img{image-rendering:auto}}
+@media print{html,body{background:#fff}.site{box-shadow:none}}
