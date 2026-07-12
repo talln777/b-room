@@ -13,51 +13,96 @@
 <body>
   <a class="skip-link" href="#main">本文へ移動</a>
 
+  <header class="mobile-header">
+    <a class="mobile-brand" href="#home" aria-label="mAx ホーム">mAx</a>
+    <button class="mobile-menu-button" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="メニューを開く">
+      <span></span><span></span><span></span>
+    </button>
+    <nav id="mobile-nav" class="mobile-nav" aria-label="モバイルナビゲーション">
+      <a href="#home">HOME</a><a href="#features">特徴</a><a href="#howto">使い方</a>
+      <a href="#screenshots">スクリーンショット</a><a href="#faq">FAQ</a>
+      <a class="mobile-store-link" href="https://apps.apple.com/jp/app/max-%E7%B0%A1%E5%8D%98%E3%81%AB%E7%90%83%E9%80%9F%E8%A8%88%E6%B8%AC/id1017798340">App Store</a>
+    </nav>
+  </header>
+
   <main id="main" class="site" aria-label="mAx公式サイト">
     <header id="home" class="mockup-section mockup-section--hero" aria-labelledby="hero-title">
       <h1 id="hero-title" class="visually-hidden">スマホだけで球速測定</h1>
       <nav class="image-map image-map--global" aria-label="メインナビゲーション">
         <a href="#home" style="--x:26.8%;--w:5.3%">HOME</a>
-        <a href="#features" style="--x:33.1%;--w:4.2%">特徴</a>
-        <a href="#howto" style="--x:38.3%;--w:5.7%">使い方</a>
-        <a href="#screenshots" style="--x:45.2%;--w:11.1%">スクリーンショット</a>
-        <a href="#scenes" style="--x:58.8%;--w:8.4%">キャラクター</a>
-        <a href="#faq" style="--x:69.1%;--w:3.8%">FAQ</a>
-        <a href="#download" style="--x:79.4%;--w:17.7%">App Storeでダウンロード</a>
+        <a href="#features" style="--x:35.6%;--w:4.4%">特徴</a>
+        <a href="#howto" style="--x:43.8%;--w:5.6%">使い方</a>
+        <a href="#screenshots" style="--x:53.2%;--w:12.4%">スクリーンショット</a>
+        <a href="#faq" style="--x:69.5%;--w:4.4%">FAQ</a>
+        <a href="https://apps.apple.com/jp/app/max-%E7%B0%A1%E5%8D%98%E3%81%AB%E7%90%83%E9%80%9F%E8%A8%88%E6%B8%AC/id1017798340" style="--x:79.4%;--w:17.7%">App Storeでダウンロード</a>
       </nav>
+      <a class="store-hotspot store-hotspot--hero" href="https://apps.apple.com/jp/app/max-%E7%B0%A1%E5%8D%98%E3%81%AB%E7%90%83%E9%80%9F%E8%A8%88%E6%B8%AC/id1017798340" aria-label="mAxをApp Storeでダウンロード">App Storeでダウンロード</a>
       <picture>
-        <img src="images/sections/01-header-hero.png?v=9" width="870" height="482" alt="mAxのヘッダーと、スマホだけで球速測定できることを伝える女性選手と鶏のキャラクター入りメインビジュアル" fetchpriority="high">
+        <img src="images/sections/01-header-hero.png?v=11" width="870" height="482" alt="mAxのヘッダーと、スマホだけで球速測定できることを伝える女性選手と鶏のキャラクター入りメインビジュアル" fetchpriority="high">
       </picture>
-      <img class="hero-bubble-overlay" src="images/parts/hero-bubble.svg?v=8" width="870" height="482" alt="" aria-hidden="true">
+      <img class="hero-bubble-overlay" src="images/parts/hero-bubble.svg?v=9" width="870" height="482" alt="" aria-hidden="true">
     </header>
 
     <section id="features" class="mockup-section" aria-labelledby="features-title">
       <h2 id="features-title" class="visually-hidden">mAxって？</h2>
       <img src="images/sections/02-features.webp" width="870" height="179" alt="レーダー不要、野球・ソフトボール対応、練習・試合で活躍するmAxの特徴" loading="lazy">
+      <div class="mobile-content mobile-features">
+        <h2>mAxって？</h2>
+        <article><span aria-hidden="true">📱</span><div><h3>レーダー不要</h3><p>スマホだけで球速を測定できます。</p></div></article>
+        <article><span aria-hidden="true">⚾</span><div><h3>野球・ソフトボール対応</h3><p>野球はもちろん、ソフトボールにも対応。</p></div></article>
+        <article><span aria-hidden="true">👥</span><div><h3>練習・試合で活躍</h3><p>ピッチング練習や試合、親子のキャッチボールにも。</p></div></article>
+      </div>
     </section>
 
     <section id="howto" class="mockup-section" aria-labelledby="howto-title">
       <h2 id="howto-title" class="visually-hidden">使い方はカンタン</h2>
       <img src="images/sections/03-howto.webp" width="870" height="283" alt="距離を選択し、投げる瞬間にPUSH、捕球した瞬間にRELEASEする使い方" loading="lazy">
+      <div class="mobile-content mobile-howto">
+        <h2>使い方はカンタン！</h2>
+        <ol>
+          <li><b>1</b><div><h3>ご利用前にチェック</h3><p>正しい距離を設定しましょう。</p></div></li>
+          <li><b>2</b><div><h3>距離を選択</h3><p>カスタム設定もできます。</p></div></li>
+          <li><b>3</b><div><h3>投げる瞬間に <em>PUSH!</em></h3></div></li>
+          <li><b>4</b><div><h3>捕球した瞬間に <em>RELEASE!</em></h3></div></li>
+        </ol>
+        <p class="mobile-result">球速が表示される！ <strong>131<small>km/h</small></strong></p>
+      </div>
     </section>
 
     <section id="scenes" class="mockup-section" aria-labelledby="scenes-title">
       <h2 id="scenes-title" class="visually-hidden">いろんなシーンで活躍</h2>
       <img src="images/sections/04-scenes.webp" width="870" height="222" alt="ピッチング練習、球速チャレンジ、親子、野球観戦での活用例と鶏のキャラクター" loading="lazy">
+      <div class="mobile-content mobile-scenes">
+        <h2>いろんなシーンで活躍！</h2>
+        <div><span>⚾ ピッチング練習に</span><span>🔥 球速チャレンジに</span><span>🤝 親子で楽しめる</span><span>🏟️ 野球観戦にも</span></div>
+      </div>
     </section>
 
     <section id="screenshots" class="mockup-section" aria-labelledby="screenshots-title">
       <h2 id="screenshots-title" class="visually-hidden">スクリーンショット</h2>
       <img src="images/sections/05-screenshots.webp" width="870" height="272" alt="ホーム、距離設定、履歴一覧、履歴詳細、マイル表示、ヘルプの画面" loading="lazy">
+      <div class="mobile-content mobile-screenshots">
+        <h2>スクリーンショット</h2>
+        <div class="screenshot-scroll" tabindex="0" aria-label="スクリーンショット一覧。横にスクロールできます">
+          <img src="images/sections/05-screenshots.webp" width="870" height="272" alt="ホーム、距離設定、履歴一覧、履歴詳細、マイル表示、ヘルプの画面">
+        </div>
+      </div>
     </section>
 
     <section id="faq" class="mockup-section" aria-labelledby="faq-title">
       <h2 id="faq-title" class="visually-hidden">よくある質問</h2>
       <img src="images/sections/06-faq.webp" width="870" height="212" alt="レーダー式か、精度、ソフトボール対応についてのよくある質問" loading="lazy">
+      <div class="mobile-content mobile-faq">
+        <h2>よくある質問</h2>
+        <details><summary>レーダー式ですか？</summary><p>いいえ、レーダー式ではありません。投球時間から球速を算出する簡易測定アプリです。</p></details>
+        <details><summary>どのくらい正確ですか？</summary><p>距離の設定と操作のタイミングで精度が変わります。正しい距離設定が重要です。</p></details>
+        <details><summary>ソフトボールでも使えますか？</summary><p>はい、ソフトボールにも対応しています。距離を調整してご利用ください。</p></details>
+      </div>
     </section>
 
     <footer id="download" class="mockup-section mockup-section--footer" aria-labelledby="download-title">
       <h2 id="download-title" class="visually-hidden">今すぐダウンロード</h2>
+      <a class="store-hotspot store-hotspot--footer" href="https://apps.apple.com/jp/app/max-%E7%B0%A1%E5%8D%98%E3%81%AB%E7%90%83%E9%80%9F%E8%A8%88%E6%B8%AC/id1017798340" aria-label="mAxをApp Storeでダウンロード">App Storeでダウンロード</a>
       <nav class="image-map image-map--footer" aria-label="フッターナビゲーション">
         <a href="privacy/" style="--x:28.8%;--w:9.5%">Privacy Policy</a>
         <a href="#" style="--x:42.5%;--w:7.0%">サポート</a>
