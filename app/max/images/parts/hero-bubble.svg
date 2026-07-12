@@ -2,8 +2,7 @@
   <!-- The matte hides every pixel of the old raster speech bubble. -->
   <g fill="#fff">
     <ellipse cx="371" cy="356" rx="52" ry="32"/>
-    <path d="M348 371 334 400 369 382Z"/>
-    <circle cx="319" cy="357" r="4"/>
+    <path d="M352 373 344 394 369 382Z"/>
   </g>
 
   <!-- One closed Bézier path keeps the outline and tail continuous. -->
@@ -12,8 +11,8 @@
        C399 327 419 339 419 356
        C419 372 400 384 374 386
        C369 386 365 385 361 384
-       L340 397
-       L346 381
+       L349 391
+       L352 382
        C332 376 323 367 323 356
        C323 339 344 327 371 327Z"
     fill="#fff"
