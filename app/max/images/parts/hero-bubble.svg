@@ -1,8 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 870 482" role="img" aria-label="気になる！">
   <!-- The matte hides every pixel of the old raster speech bubble. -->
   <g fill="#fff">
+    <!-- Remove the three old raster specks to the left of the bubble. -->
+    <rect x="308" y="350" width="21" height="18" rx="8"/>
+    <!-- Remove the final two old tail specks without touching the right wing. -->
+    <rect x="346" y="384" width="20" height="14" rx="5"/>
     <ellipse cx="371" cy="356" rx="52" ry="32"/>
-    <path d="M352 373 344 394 369 382Z"/>
   </g>
 
   <!-- One closed Bézier path keeps the outline and tail continuous. -->
